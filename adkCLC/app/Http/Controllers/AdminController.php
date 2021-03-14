@@ -197,7 +197,9 @@ class AdminController extends Controller
         // get portfolio and groups
         $portfolio = $ubs->getUserPortfolio($id);
         $groups = $ubs->getGroups($id);
-        
+        return View('/adminPages/viewuser')->with('user', $user)
+                                              ->with('portfolio', $portfolio)
+                                              ->with('groups', $groups);
         
     }
     //Admin group view
