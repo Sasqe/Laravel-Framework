@@ -1,2 +1,2 @@
 # Laravel-Framework
-A web application leveraging the Karavel framework with PHP
+A web application leveraging the Laravel framework with PHP
